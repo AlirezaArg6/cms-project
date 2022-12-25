@@ -1,0 +1,36 @@
+.cms-title {
+  font-size: 2rem;
+  margin-top: 40px;
+}
+
+.cms-table {
+  background-color: var(--white);
+  width: 100%;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+.cms-table td,
+.cms-table th {
+  vertical-align: middle;
+  padding: 20px;
+  text-align: center;
+}
+
+.cms-table__img {
+  width: 100px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.cms-table__btn {
+  background-color: var(--blue);
+  color: var(--white);
+  padding: 5px 15px;
+  border-radius: 7px;
+  margin-right: 10px;
+  font-size: 0.9rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}

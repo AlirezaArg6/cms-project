@@ -1,0 +1,33 @@
+.details-modal {
+  background-color: var(--white);
+  padding: 30px 40px 40px 40px;
+  width: 400px;
+}
+
+.details-modal > p {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.details-modal__table th,
+.details-modal__table td {
+  padding: 20px;
+  font-size: 1.3rem;
+}
+
+.details-modal__table tr {
+  text-align: center;
+}
+
+.details-modal__btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 100%;
+  background-color: var(--blue);
+  color: var(--white);
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 20px;
+}
